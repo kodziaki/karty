@@ -6,7 +6,7 @@
 - Klawiatura ekranowa
 - Mikrofon
 - Kamera
-- Dysk
+- Pamięć trwała
 
 ### Output
 - Głośnik
