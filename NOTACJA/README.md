@@ -69,10 +69,19 @@ NO,NAME
 4,wyłącz
 ```
 
-
+Kombinacje
 ```csv
-IN, DATA, OPERATION, OUT
+IN, DATA, OPERATION, OUT, DEVICE
 1, 1, 1, 1
+
+```
+
+nazwa urządzenia
+```csv
+ID, NAZWA
+1111,Dyktafon
+1112, odtwarzacz audio
+1112, odtwarzacz video
 
 ```
 
