@@ -22,6 +22,10 @@ Wykorzystanie URI do adresowania wejścia i wyjścia, czyli np.
 
 ```javascript
 from('rtmp://youtube.video').data('mimetype://video/mp4').operation('save').to('file://video1.mp4')
+# delete
+from('ssh://remotesever').data('file://video1.mp4').operation('delete')
+# upload
+from('localhost').data('file://video1.mp4').operation('save').to('ssh://remotesever')
 ```
 
 w ten sposób budowanie z klocków będzie odnosiło się do zasobów istniejących i opartych w jakimś wycinku infrastruktury niezależnie czy to smartfon czy internet
