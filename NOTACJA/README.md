@@ -12,6 +12,7 @@ dzięki temu bedzie można robić converter z URI na kod
 apache camel ma taką URI notację + dsl
 
 ![image](https://github.com/kodziaki/karty/assets/5669657/24c7fef5-bbb8-4784-abe1-841e46df9e2c)
+
 Działający mikroserwis: [REST :: Apache Camel](https://camel.apache.org/components/4.0.x/rest-component.html)
 
 
