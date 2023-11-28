@@ -1,6 +1,6 @@
 # [karty.kodziaki.pl](https://karty.kodziaki.pl/)
 
-+ [DANE](DANE.md)
++ [DANE](DANE/README.md)
   
 ## Elementy
 
