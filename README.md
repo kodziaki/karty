@@ -1,5 +1,7 @@
 # karty.kodziaki.pl
 
++ [DANE](DANE.md)
+  
 ## Elementy
 
 ### Input
@@ -142,3 +144,7 @@ Rozmowa rozbudowana na trzy oddzielne procesy z wykorzystaniem różnych interfe
    - Functions: Odcięcie aktywnego połączenia i potwierdzenie zakończenia użytkownikowi
 
 Takie rozłożenie pozwala lepiej zrozumieć złożoność procesu rozmowy telefonicznej i w jaki sposób różne komponenty smartfona są wykorzystywane do wykonania poszczególnych czynności. Części te są ze sobą powiązane i sekwencyjne, co oznacza, że wywołanie kolejnych akcji jest zależne od poprzednich, np. odebranie głosu rozmówcy jest możliwe po wcześniejszym wybraniu numeru i nawiązaniu połączenia.
+
+
+
+
