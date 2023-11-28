@@ -17,8 +17,8 @@ Działający mikroserwis: [REST :: Apache Camel](https://camel.apache.org/compon
 
 ## URI
 Wykorzystanie URI do adresowania wejścia i wyjścia, czyli np. 
-+ jeśli kamera jest podłączona do netu to `http://`, a jak do urzadzenia to `usb://`
-+ adresowanie klawiatury jest potrzebne, bo trzeba wiedzieć co nacisnąć: key://enter
++ jeśli kamera jest podłączona do netu to `http://www.camera.com/camera1`, a jak do urzadzenia to `usb://camera1`
++ adresowanie klawiatury jest potrzebne, bo trzeba wiedzieć co nacisnąć: `key://enter?press`
 
 w ten sposób budowanie z klocków będzie odnosiło się do zasobów istniejących i opartych w jakimś wycinku infrastruktury niezależnie czy to smartfon czy internet
 
