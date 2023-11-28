@@ -20,6 +20,10 @@ Wykorzystanie URI do adresowania wejścia i wyjścia, czyli np.
 + jeśli kamera jest podłączona do netu to `http://www.camera.com/camera1`, a jak do urzadzenia to `usb://camera1`
 + adresowanie klawiatury jest potrzebne, bo trzeba wiedzieć co nacisnąć: `key://enter?press`
 
+```javascript
+from('rtmp://youtube.video').data('mimetype://video/mp4').operation('save').to('file://video1.mp4')
+```
+
 w ten sposób budowanie z klocków będzie odnosiło się do zasobów istniejących i opartych w jakimś wycinku infrastruktury niezależnie czy to smartfon czy internet
 
 jak dziecko przejdzie etap zgadywanek i kombinacji to potem może przejść do poziomu tworzenia  aplikacji w smartfonie
@@ -71,3 +75,39 @@ IN, DATA, OPERATION, OUT
 1, 1, 1, 1
 
 ```
+
+
+## Streaming
+
+the content types associated with RTMP streams or related file formats that are served over RTMP, here are some examples:
+
+1. **FLV - Flash Video**: 
+   - MIME Type: `video/x-flv`
+   - File Extension: `.flv`
+   - Example: `SampleVideo.flv`
+
+    Traditional file format used for delivering video streams via RTMP, which used to be played back in the Adobe Flash Player.
+
+2. **F4V - MPEG-4 Video File used in Flash**:
+   - MIME Type: `video/mp4`
+   - File Extension: `.f4v` or `.mp4`
+   - Example: `SampleVideo.f4v`
+
+    An updated version of the FLV file format that was part of the Adobe Flash video workflow, containing H.264/AAC content.
+
+3. **FLA - Adobe Flash Project File**:
+   - MIME Type: `application/octet-stream`
+   - File Extension: `.fla`
+   - Example: `ProjectSource.fla`
+
+    The original project file used by Adobe Flash Professional during the creation of Flash applications or animations.
+
+4. **SWF - ShockWave Flash**:
+   - MIME Type: `application/x-shockwave-flash`
+   - File Extension: `.swf`
+   - Example: `CompiledAnimation.swf`
+
+    The compiled, published version of an FLA file, which was viewed in a web browser with Flash Player plugin.
+
+
+
