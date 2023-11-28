@@ -21,10 +21,11 @@ Wykorzystanie URI do adresowania wejścia i wyjścia, czyli np.
 + adresowanie klawiatury jest potrzebne, bo trzeba wiedzieć co nacisnąć: `key://enter?press`
 
 ```javascript
+#// save stream
 from('rtmp://youtube.video').data('mimetype://video/mp4').operation('save').to('file://video1.mp4')
-# delete
+#// delete
 from('ssh://remotesever').data('file://video1.mp4').operation('delete')
-# upload
+#// upload
 from('localhost').data('file://video1.mp4').operation('save').to('ssh://remotesever')
 ```
 
